@@ -5,6 +5,8 @@ body {
     font-weight: 400;
     line-height: 1.4;
     color:hsl(30, 10%, 34%);
+    box-sizing: border-box;
+    place-items: center;
 }
 .card {
     background-color: white;
@@ -15,7 +17,7 @@ body {
     padding: 30px;
     margin-top: 128px;
     margin-bottom: 100px;
-    margin-left: 23%;
+    
 }
 img {
     width: 100%;
