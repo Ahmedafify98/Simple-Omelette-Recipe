@@ -1,0 +1,126 @@
+body {
+    background-color: #F3E5D8;
+    font-family: 'outfit';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.4;
+    color:hsl(30, 10%, 34%);
+}
+.card {
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    width: 700px;
+    border-radius: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 128px;
+    margin-bottom: 100px;
+    margin-left: 23%;
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 43px;
+    font-family: 'Young Serif';
+    font-weight: 550;
+    margin-top: 30px;
+    color: #333;
+    margin-bottom: 10px;
+}
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 28px;
+    font-family: 'young serif';
+    font-weight: 500;
+}
+h3 {
+    font-size: 22px;
+    margin: 10px;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 5px;
+}
+.preparation-time {
+    background-color: #FFF7FC;
+    padding: 10px;
+    line-height: 1.7;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+ul {
+    padding-left: 20px;
+}
+ul.prep {
+    padding-left: 30px;
+}
+ul li {
+    margin-bottom: 5px;
+    margin: 7px;
+    padding-left: 25px;
+}
+ul.prep li::marker {
+    color: hsl(332, 51%, 32%);
+}
+ul.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+hr {
+    opacity: .4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+ol li{
+    padding-left: 20px;
+    margin: 10px;
+    font-weight: 450;
+}
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    font-family: 'outfit';
+    font-size: 16px;
+}
+table {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr {
+    text-indent: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+td {
+    padding: 10px;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+.kg {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+@media only screen and (max-width: 600px) {
+body {
+    padding-right: -100px;
+}
+    .card {
+        width: 103.9%;
+        margin: -10px;
+        padding: 0px;
+        padding-bottom: 20px;
+        background-color: white;
+        border: 0;
+        border-radius: 0px;
+        box-shadow: 0;
+    }
+    img {
+        border-radius: 0px;
+    }
+    .content {
+        padding: 20px;
+    }
+}
